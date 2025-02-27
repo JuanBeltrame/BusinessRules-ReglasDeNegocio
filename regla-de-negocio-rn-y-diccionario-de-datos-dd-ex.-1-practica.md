@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1570125909232-eb263c188f7e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHx0cmF2ZWwlMjBidXN8ZW58MHx8fHwxNzQwNjg0MjQ5fDA&ixlib=rb-4.0.3&q=85
+coverY: 0
+---
+
 # Regla de Negocio (RN) y Diccionario de Datos (DD) - Ex. 1 - Practica
 
 #### <mark style="color:orange;">Ejercicio 1 - Exercise 1</mark>
