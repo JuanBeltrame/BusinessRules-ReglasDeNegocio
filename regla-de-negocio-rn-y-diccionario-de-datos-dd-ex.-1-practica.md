@@ -1,4 +1,5 @@
 ---
+description: Viaje de regreso al pueblo | Journey back to the village
 cover: >-
   https://images.unsplash.com/photo-1570125909232-eb263c188f7e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHx0cmF2ZWwlMjBidXN8ZW58MHx8fHwxNzQwNjg0MjQ5fDA&ixlib=rb-4.0.3&q=85
 coverY: 0
