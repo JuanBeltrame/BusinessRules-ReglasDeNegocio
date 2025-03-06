@@ -31,8 +31,20 @@ c) By means of an example, make a sample of data for the Outflow.
 
 <mark style="color:green;">**Solution:**</mark>&#x20;
 
+a) La primera actividad que se debe realizar para poder viajar, es seleccionar la empresa con la cual realizar el viaje
+
 **Reglas de Negocio & Diccionario de Datos:**&#x20;
 
+**Reglas de Negocio:**\
+**. Hech﻿os:** El colectivo sale desde la terminal de omnibus \
+**. Restricciones:** Ser mayor de 18 años para viajar solo, presentarse con el dni al momento de subir al bus. \
+. **Inferencias:** Brindar el numero de dni a la hora de sacar el boleto
 
+**Diccionario de Datos:**\
+e: consultaViaje = empresa + fechaViaje(e)\
+s: EmisionBoleto = fechaViaje(e) + precioPasaje + tipoDeViaje(d) \
+\
+fechaViaje(e)  = dia + mes + año + hora\
+tipoDeViaje(d) = char(5); \[largo | corto]&#x20;
 
-**Tipo de Evento:**&#x20;
+**Tipo de Evento:** Evento Temporal
