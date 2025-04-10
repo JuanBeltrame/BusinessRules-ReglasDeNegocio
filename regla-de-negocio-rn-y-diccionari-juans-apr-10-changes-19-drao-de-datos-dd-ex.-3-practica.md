@@ -5,7 +5,7 @@ cover: >-
 coverY: -141
 ---
 
-# Regla de Negocio (RN) y Diccionari📏 Juan's Apr 10 changes #19 Drao de Datos (DD) - Ex. 3 - Practica
+# Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 3 - Practica
 
 <mark style="color:orange;">**Ejercicio 2 - Exercise 2**</mark>
 
