@@ -137,6 +137,9 @@ e: compraEntrada = 1{ticketFuncion(e)}10 + precioTotal + formaDePago(d) + (codig
 ticketFuncion(e) = precioUnitario + ubicacion \
 formaDePago(d) = \[Efectivo | tDebito | tCredito] \
 \
-s: informacionTicket =&#x20;
+s: informacionTicket = fechaFuncion(e) + 1{datosEntrada(e)}10 + codigoConfirmacion
+
+fechaFuncion(e) = lugar + fecha + hora\
+datosEntrada(e) = precioUnitario + numeroDeSerie + numeroAsiento + codigoIdentificacion
 
 **Tipo de Evento:** Evento Externo
