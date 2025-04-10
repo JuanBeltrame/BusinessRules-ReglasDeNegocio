@@ -42,7 +42,7 @@ a) La primera actividad que se debe realizar para poder viajar, es seleccionar l
 
 **Diccionario de Datos:**\
 e: consultaViaje = empresa + fechaViaje(e)\
-s: EmisionBoleto = fechaViaje(e) + precioPasaje + tipoDeViaje(d) \
+s: emisionBoleto = fechaViaje(e) + precioPasaje + tipoDeViaje(d) \
 \
 fechaViaje(e)  = dia + mes + año + hora\
 tipoDeViaje(d) = char(5); \[largo | corto]&#x20;

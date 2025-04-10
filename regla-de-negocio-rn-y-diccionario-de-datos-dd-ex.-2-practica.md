@@ -57,6 +57,10 @@ c) Think about what other activities related to the activity described in (a) th
 
 **Reglas de Negocio:**
 
+
+
 **Diccionario de Datos:**
 
-**Tipo de Evento:**
+**e:**
+
+**Tipo de Evento:** Evento Externo
