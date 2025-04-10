@@ -61,6 +61,6 @@ c) Think about what other activities related to the activity described in (a) th
 
 **Diccionario de Datos:**
 
-**e:**
+e: compraArticulos = 1{Producto+Cantidad}n
 
 **Tipo de Evento:** Evento Externo
