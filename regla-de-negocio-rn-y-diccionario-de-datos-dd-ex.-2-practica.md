@@ -61,6 +61,17 @@ c) Think about what other activities related to the activity described in (a) th
 
 **Diccionario de Datos:**
 
-e: compraArticulos = 1{Producto+Cantidad}n
+e: compraArticulos = 1{Producto + Cantidad}n + formaDePago(d) + (validacionDatosPersonales) + tipoDeRetiro(d)\
+\
+validacionDatosPersonales(d) = \[dnI | licenciaConducir\
+formaDePago(d) = \[Efectivo | Tarjeta] \
+tipoDeRetiro(d) = \[aDomicilio | retiraCliente]\
+\
+s: ticketDeCompra = 1{Productos + Cantidad}n + datosFiscales(e) + precioTotal + tipoDeRetiro(d)\
+
+
+tipoDeRetiro(d) = \[aDomicilio | retiraCliente] \
+datosFiscales(d) = \[cuil + nombreEmpresa + tipoDeFactura(d)]\
+tipoDeFactura(d) = \[consumidorFinal | FacturaA] &#x20;
 
 **Tipo de Evento:** Evento Externo
