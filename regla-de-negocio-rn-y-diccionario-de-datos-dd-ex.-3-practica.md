@@ -11,46 +11,89 @@ coverY: -135
 
 Spanish:
 
-Somos María Victoria y Axel, y hoy además de cruzarnos en la Facu, ahora nos vemos en el supermercado.&#x20;\
+¡Hola! Soy Agustín, fanático de DC, esta semana hay un super estreno de cine, ya estoy sacando las\
+entradas!\
 \
-Sucede que es lunes, estamos recién llegados a Rosario y la heladera está vacía. ¡A realizar la compra\
-semanal! ...Varios minutos después coinciden en la cola de la caja.\
+Mi mamá no entiende mucho de Comics pero quiere parecer copada y cada vez que le cuento que\
+voy al cine a ver DC me hace el mismo chiste:\
 \
-—¿Dónde estaban las galletitas Tyddo? –preguntó María Victoria.\
-–En la góndola de las gaseosas–respondió Axel–y están en promoción, tienen un descuento\
-importante.\
-–Este lunes hay muchas promociones por eso llené el carrito–comentó María Victoria.\
-–Hoy conviene pagar con tarjeta de débito-dijo Axel- pero la olvidé y sólo traje efectivo.\
-–Yo estoy igual que vos, jaja-respondió María Victoria sonriendo.\
-– Y ¿Cómo haces para llevarte todo lo que compraste hasta tu casa?--preguntó Axel.\
-–¡Por supuesto que no lo llevo yo! Aprovecho los lunes de envío gratis y elijo esa opción cuando la\
-cajera me consulta–respondió María Victoria.\
-–Bueno, es mi turno, nos vemos mañana en clases!-se despidió Axel.
+–¡Agustín! Podes elegir ser Superman o el Superboy de Análisis de Sistemas. Di Si.\
+\
+Cómo no le contesto, porque no entiendo el chiste, se enoja muchísimo y luego no me habla, por\
+unos dos minutos.\
+\
+Bueno más allá de cómo es mi mamá, ya compré las entradas para la próxima película, voy a ir con\
+los chicos del club, justo somos 10 que es el máximo de entradas que te deja comprar a la vez.\
+Pude ingresar el código de promoción que me regalaron y así pagar un 35 % menos. El pago lo\
+hice con la tarjeta de mi mamá, cuando lo vea en el resumen, ¡se arma!
 
-a) Según este diálogo. ¿Cuál es la actividad que van a realizar María Victoria y Axel, cuando coinciden en la&#x20;caja?. Enuncia misma.\
-b) Realiza el diccionario de datos de flujos de entrada y salida.\
-c) Piensa qué otras actividades relacionadas con la actividad del punto a) pueden realizar estos\
-estudiantes. Las mismas podrían realizarse previas a la actividad descrita en a o posterior a la misma.\
+a) Definir la actividad que hace Agustín (además de soportar los chistes malos de su mamá) .\
+b) Definir el diccionario de datos de flujos.\
+c) Enunciar las reglas de negocio que hubiere. ¿ Te animás a clasificarlas?\
+d) En relación a la actividad definida en el punto a,) ¿ Pensás que hay actividades que pueden ocurrir\
+antes o después? De ser así, enunciarlas.\
+e) Una vez que Agustín compra las entradas le llega el siguiente mail. Escriba las reglas de negocio\
+que encuentra en el mismo. \
+\
+Contenido del mail:\
+\
+Estimado/a Agustín:\
+\
+Usted ha comprado 10 entradas para ver Aquaman el viernes, 2 de febrero de 2024 a\
+las 20:00 en el Cine Showcase Rosario, en Sala 7.Su código de confirmación es\
+UCNDFX.\
+\
+Dos pasos para acceder a ver su película:
 
+1. NO ES NECESARIO IMPRIMIR SUS ENTRADAS.
+2. Presente el código de confirmación que está más arriba al personal de control de la sala.
+
+Asientos comprados:\
+O-7 - Número de serie: 2262472402026E1 0055 - SHMAS2D - Importe: $2,700.00\
+O-6 - Número de serie: 2262472402026E1 0056 - SHMAS2D - Importe: $2,700.00\
+........\
+..........\
+O-15 - Número de serie: 2262472402026E1 0058 - SHMAS2D - Importe: $2,700.00
 
 English:
 
-We are María Victoria and Axel, and today, besides bumping into each other at university, we now meet at the supermarket.
+Hello! I’m Agustín, a DC fan, and this week there’s a big film premiere – I’m already buying the tickets!\
+\
+My mum doesn’t know much about comics, but she wants to come across as cool. Every time I tell her I’m going to the cinema to see DC, she makes the same joke:\
+\
+“Agustín! You can choose to be either Superman or the Systems Analysis Superboy."\
+\
+Since I don’t reply – because I don’t understand the joke – she gets terribly angry and won’t speak to me for about two minutes.\
+\
+Anyway, putting aside how my mum is, I’ve already bought the tickets for the next film. I’m going with my club friends – we’re exactly ten, which is the maximum number of tickets you can purchase at one time. I managed to enter the promotional code they gave me and thus paid 35% less. I paid with my mum’s card – when she sees it on the statement, i will be involved in a big trouble. \
+\
+a) Define the activity that Agustín is doing (besides tolerating his mum’s bad jokes).
 
-It so happens that it is Monday, we have just arrived in Rosario and the fridge is empty. Time to do the weekly shopping! … A few minutes later, they find themselves in the checkout queue.
+b) Define the data dictionary for flows.
 
-—“Where were the Tyddo biscuits?” asked María Victoria.\
-—“They were on the soft drinks shelf,” replied Axel, “and they are on promotion; they have a significant discount.”\
-—“This Monday there are lots of promotions, which is why I filled the trolley,” commented María Victoria.\
-—“Today it’s better to pay by debit card,” said Axel, “but I forgot mine and only brought cash.”\
-—“I’m just like you, haha,” responded María Victoria with a smile.\
-—“And how do you manage to get everything you bought home?” asked Axel.\
-—“Of course I don’t carry it myself! I take advantage of the free delivery Mondays and choose that option when the cashier asks me,” replied María Victoria.\
-—“Well, my turn now; see you tomorrow in class!” said Axel as he bid farewell.
+c) List any business rules that apply. Can you categorising them?
 
-a) According to this dialogue, what is the activity that María Victoria and Axel are going to perform when they meet at the checkout? State it clearly.\
-b) Create the data dictionary of input and output flows.\
-c) Think about what other activities related to the activity described in (a) these students might carry out. These activities could be done either prior to or after the activity mentioned in (a).
+d) In relation to the activity defined in point a), do you think there are activities that might occur before or after? If so, list them.
+
+e) Once Agustín has purchased the tickets, he receives the following email. Write down the business rules you find in it.\
+\
+E**mail Content:**
+
+Dear Agustín:
+
+You have purchased 10 tickets to see Aquaman on Friday, 2nd February 2024 at 20:00 at Cine Showcase Rosario, in Hall 7. Your confirmation code is UCNDFX.
+
+**Two steps to access your film:**
+
+IT IS NOT NECESSARY TO PRINT YOUR TICKETS.\
+Present the confirmation code shown above to the control staff at the venue.
+
+Purchased seats:\
+O-7 – Serial Number: 2262472402026E1 0055 – SHMAS2D – Price: $2,700.00\
+O-6 – Serial Number: 2262472402026E1 0056 – SHMAS2D – Price: $2,700.00\
+…\
+…\
+O-15 – Serial Number: 2262472402026E1 0058 – SHMAS2D – Price: $2,700.00
 
 ***
 
@@ -58,27 +101,14 @@ c) Think about what other activities related to the activity described in (a) th
 
 **Reglas de Negocio & Diccionario de Datos:**
 
-a) La actividad que van a realizar es realizar un pago&#x20;
+
 
 **Reglas de Negocio:**
 
-* **Hechos (facts):** Se debe pasar por la caja para realizar el pago para retirarse con los productos
-* **Acciones disparadoras (action enablers):** La cola de supermercado avanza a medida que los clientes atraviesan la caja y dandole paso al siguiente cliente. &#x20;
-* **Calculos (Computations):** Los calculos realizados por el sistema para generar el ticket
+
 
 **Diccionario de Datos:**
 
-e: compraArticulos = 1{Producto + Cantidad}n + formaDePago(d) + (validacionDatosPersonales) + tipoDeRetiro(d)\
-\
-validacionDatosPersonales(d) = \[dnI | licenciaConducir\
-formaDePago(d) = \[Efectivo | Tarjeta] \
-tipoDeRetiro(d) = \[aDomicilio | retiraCliente]\
-\
-s: ticketDeCompra = 1{Productos + Cantidad}n + datosFiscales(e) + precioTotal + tipoDeRetiro(d)\
 
 
-tipoDeRetiro(d) = \[aDomicilio | retiraCliente] \
-datosFiscales(d) = \[cuil + nombreEmpresa + tipoDeFactura(d)]\
-tipoDeFactura(d) = \[consumidorFinal | FacturaA] &#x20;
-
-**Tipo de Evento:** Evento Externo
+**Tipo de Evento:**&#x20;
