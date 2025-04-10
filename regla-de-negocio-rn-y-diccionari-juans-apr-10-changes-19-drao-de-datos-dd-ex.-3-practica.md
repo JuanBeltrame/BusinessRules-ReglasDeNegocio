@@ -53,7 +53,18 @@ O-7 - Número de serie: 2262472402026E1 0055 - SHMAS2D - Importe: $2,700.00\
 O-6 - Número de serie: 2262472402026E1 0056 - SHMAS2D - Importe: $2,700.00\
 ........\
 ..........\
-O-15 - Número de serie: 2262472402026E1 0058 - SHMAS2D - Importe: $2,700.00
+O-15 - Número de serie: 2262472402026E1 0058 - SHMAS2D - Importe: $2,700.00\
+\
+**Política de reembolso:** Showcase no realiza cambios, reintegros ni devoluciones de entradas\
+una vez comenzada la función adquirida.\
+\
+El Cliente tiene derecho a revocar la compra y solicitar la devolución del importe abonado\
+de dos maneras, \
+\
+1\) haciéndose presente en la boletería del cine para el cual compró las\
+entradas hasta la hora de inicio de la función. \
+\
+2\) de manera online hasta tres (3) horas&#x20;antes del comienzo de la función para la cual la entrada fue adquirida utilizando el link:&#x20;DEVOLUCIÓN
 
 English:
 
@@ -93,7 +104,15 @@ O-7 – Serial Number: 2262472402026E1 0055 – SHMAS2D – Price: $2,700.00\
 O-6 – Serial Number: 2262472402026E1 0056 – SHMAS2D – Price: $2,700.00\
 …\
 …\
-O-15 – Serial Number: 2262472402026E1 0058 – SHMAS2D – Price: $2,700.00
+O-15 – Serial Number: 2262472402026E1 0058 – SHMAS2D – Price: $2,700.00\
+
+
+Refund Policy: Showcase does not offer exchanges, refunds or ticket returns once the purchased screening has began.
+
+The Customer is entitled to cancel the purchase and request a refund of the amount paid in either of the following ways:
+
+1. By presenting themselves at the box office of the cinema for which the tickets were purchased, up until the start time of the screening.
+2. Online, up to three (3) hours before the commencement of the screening for which the ticket was purchased, using the following link: REFUND.
 
 ***
 
@@ -101,14 +120,23 @@ O-15 – Serial Number: 2262472402026E1 0058 – SHMAS2D – Price: $2,700.00
 
 **Reglas de Negocio & Diccionario de Datos:**
 
-
+a) La actividad realizada en este enunciado consiste en Comprar entradas para asistir a una funcion en el cine.&#x20;
 
 **Reglas de Negocio:**
 
-
+* **Restricciones (Constraints)**: Se permite comprar hasta 10 entradas por cliente en una misma compra
+* **Calculos (Computations):** Se paga un 35% menos por utilizar un codigo de promocion&#x20;
+* **Hechos (Facts):** Al finalizar la compra de las entradas se genera un codigo de confirmacion
+* **Inferencias (Inferences):** No se realizan cambios, reintegros ni devoluciones
+* **Restricciones (Constraints)**: Se puede solicitar la devolucion del importe abonado hasta tres horas antes de comenzada la funcion.&#x20;
 
 **Diccionario de Datos:**
 
+e: compraEntrada = 1{ticketFuncion(e)}10 + precioTotal + formaDePago(d) + (codigoPromocion)\
+\
+ticketFuncion(e) = precioUnitario + ubicacion \
+formaDePago(d) = \[Efectivo | tDebito | tCredito] \
+\
+s: informacionTicket =&#x20;
 
-
-**Tipo de Evento:**&#x20;
+**Tipo de Evento:** Evento Externo

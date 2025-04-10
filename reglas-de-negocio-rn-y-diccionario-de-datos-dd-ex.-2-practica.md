@@ -70,7 +70,7 @@ a) La actividad que van a realizar es realizar un pago&#x20;
 
 e: compraArticulos = 1{Producto + Cantidad}n + formaDePago(d) + (validacionDatosPersonales) + tipoDeRetiro(d)\
 \
-validacionDatosPersonales(d) = \[dnI | licenciaConducir\
+validacionDatosPersonales(d) = \[dnI | licenciaConducir]\
 formaDePago(d) = \[Efectivo | Tarjeta] \
 tipoDeRetiro(d) = \[aDomicilio | retiraCliente]\
 \
