@@ -55,9 +55,13 @@ c) Think about what other activities related to the activity described in (a) th
 
 **Reglas de Negocio & Diccionario de Datos:**
 
+a) La actividad que van a realizar es realizar un pago&#x20;
+
 **Reglas de Negocio:**
 
-
+* **Hechos (facts):** Se debe pasar por la caja para realizar el pago para retirarse con los productos
+* **Acciones disparadoras (action enablers):** La cola de supermercado avanza a medida que los clientes atraviesan la caja y dandole paso al siguiente cliente. &#x20;
+* **Calculos (Computations):** Los calculos realizados por el sismtema para generar el ticket
 
 **Diccionario de Datos:**
 
