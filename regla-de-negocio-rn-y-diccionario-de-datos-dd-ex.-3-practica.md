@@ -1,8 +1,8 @@
 ---
-description: Cola de Supermercado | wait in line at the supermarket checkout
+description: Compra de Tickets para el Cine | Cinema Tickets Purchase
 cover: >-
-  https://images.unsplash.com/photo-1601598838108-5019bf3ea4a6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxzdXBlcm1hcmtldCUyMGxpbmV8ZW58MHx8fHwxNzQ0Mjk4MjQ4fDA&ixlib=rb-4.0.3&q=85
-coverY: -135
+  https://images.unsplash.com/photo-1587135325273-adef4e88bc25?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxtb3ZpZSUyMHRpY2tldHN8ZW58MHx8fHwxNzQ0MzAwNTU2fDA&ixlib=rb-4.0.3&q=85
+coverY: -195
 ---
 
 # Regla de Negocio (RN) y Diccionario de Datos (DD) - Ex. 3 - Practica
