@@ -2,10 +2,10 @@
 description: Compra de Tickets para el Cine | Cinema Tickets Purchase
 cover: >-
   https://images.unsplash.com/photo-1587135325273-adef4e88bc25?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxtb3ZpZSUyMHRpY2tldHN8ZW58MHx8fHwxNzQ0MzAwNTU2fDA&ixlib=rb-4.0.3&q=85
-coverY: -195
+coverY: -141
 ---
 
-# Regla de Negocio (RN) y Diccionario de Datos (DD) - Ex. 3 - Practica
+# Regla de Negocio (RN) y Diccionari📏 Juan's Apr 10 changes #19 Drao de Datos (DD) - Ex. 3 - Practica
 
 <mark style="color:orange;">**Ejercicio 2 - Exercise 2**</mark>
 
