@@ -1,5 +1,8 @@
 ---
 description: Cola de Supermercado | wait in line at the supermarket checkout
+cover: >-
+  https://images.unsplash.com/photo-1601598838108-5019bf3ea4a6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxzdXBlcm1hcmtldCUyMGxpbmV8ZW58MHx8fHwxNzQ0Mjk4MjQ4fDA&ixlib=rb-4.0.3&q=85
+coverY: -135
 ---
 
 # Regla de Negocio (RN) y Diccionario de Datos (DD) - Ex. 2 - Practica
