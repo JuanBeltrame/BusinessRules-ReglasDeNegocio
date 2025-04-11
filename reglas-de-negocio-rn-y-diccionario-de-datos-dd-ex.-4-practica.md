@@ -48,10 +48,10 @@ Juan, Brian, and Nicolás are about to sit for _Mathematical Analysis I_. After 
 
 e: inscripcionExamen = login(e) + nombreMateria + profesorExaminador\
 \
-login(e) = numLegajo + contraseña
+login(e) = numLegajo + contraseña&#x20;
 
+s: comprobanteInscripcion = fechaExamen(e) + lugarDeExamen + numAula + numComision + profesorExaminador
 
-
-
+fechaExamen(e) = hora + dia&#x20;
 
 **Tipo de Evento:** Evento Externo&#x20;
