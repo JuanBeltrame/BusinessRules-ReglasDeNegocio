@@ -1,8 +1,8 @@
 ---
 description: Compra de Tickets para el Cine | Cinema Tickets Purchase
 cover: >-
-  https://images.unsplash.com/photo-1587135325273-adef4e88bc25?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxtb3ZpZSUyMHRpY2tldHN8ZW58MHx8fHwxNzQ0MzAwNTU2fDA&ixlib=rb-4.0.3&q=85
-coverY: -235
+  https://images.unsplash.com/photo-1665979738276-e41e815df1e1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw4fHxmaW5hbCUyMGV4YW18ZW58MHx8fHwxNzQ0Mzc2ODU5fDA&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 4 - Practica
@@ -35,10 +35,23 @@ Juan, Brian, and Nicolás are about to sit for _Mathematical Analysis I_. After 
 
 **Reglas de Negocio:**
 
-*
+* **Restricciones (Constraints)**: \
+  Para rendir un final se necesita estar como regular en la materia\
+  La inscripcion al examen se puede generar unicamente durante en el periodo de inscripcion al mismo.
+* **Inferencias (Inferences):** El examen se rinde de manera presencial en la facultad.&#x20;
+* **Hechos (Facts):** \
+  Los finales se rinden en las mesas de examen.\
+  La inscripcion se realiza a traves del Sysacad
+* **Acciones disparadoras (action enablers):**  Cuando se genera la inscripcion satisfactoriamente, se genera un comprobante con los datos de la mesa de examen.&#x20;
 
 **Diccionario de Datos:**
 
+e: inscripcionExamen = login(e) + nombreMateria + profesorExaminador\
+\
+login(e) = numLegajo + contraseña
 
 
-**Tipo de Evento:**&#x20;
+
+
+
+**Tipo de Evento:** Evento Externo&#x20;
