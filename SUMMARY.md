@@ -7,3 +7,7 @@
 * [Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 4 - Practica](reglas-de-negocio-rn-y-diccionario-de-datos-dd-ex.-4-practica.md)
 * [Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 5 - Practica](copy-of-reglas-de-negocio-rn-y-diccionario-de-datos-dd-ex.-4-practica.md)
 * [Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 6 - Practica](reglas-de-negocio-rn-y-diccionario-de-datos-dd-ex.-6-practica.md)
+* [Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 7 - Practica](reglas-de-negocio-rn-y-diccionario-de-datos-dd-ex.-7-practica.md)
+* [Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 8 - Practica](reglas-de-negocio-rn-y-diccionario-de-datos-dd-ex.-8-practica.md)
+* [Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 9 - Practica](reglas-de-negocio-rn-y-diccionario-de-datos-dd-ex.-9-practica.md)
+* [Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 10 - Practica](reglas-de-negocio-rn-y-diccionario-de-datos-dd-ex.-10-practica.md)
