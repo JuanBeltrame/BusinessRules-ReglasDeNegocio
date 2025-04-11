@@ -7,7 +7,7 @@ coverY: -235
 
 # Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 3 - Practica
 
-<mark style="color:orange;">**Ejercicio 2 - Exercise 2**</mark>
+<mark style="color:orange;">**Ejercicio 3 - Exercise 3**</mark>
 
 Spanish:
 
