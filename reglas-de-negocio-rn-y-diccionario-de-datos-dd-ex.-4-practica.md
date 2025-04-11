@@ -1,5 +1,5 @@
 ---
-description: Compra de Tickets para el Cine | Cinema Tickets Purchase
+description: Examen Final | Final Exam
 cover: >-
   https://images.unsplash.com/photo-1665979738276-e41e815df1e1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw4fHxmaW5hbCUyMGV4YW18ZW58MHx8fHwxNzQ0Mzc2ODU5fDA&ixlib=rb-4.0.3&q=85
 coverY: 0
