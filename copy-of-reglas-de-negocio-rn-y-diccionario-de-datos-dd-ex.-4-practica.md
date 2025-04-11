@@ -30,16 +30,32 @@ Tomás has an upcoming dental treatment; he has already booked an appointment at
 
 <mark style="color:green;">**Solution:**</mark>
 
+<figure><img src=".gitbook/assets/Captura de pantalla 2025-04-11 141924.jpg" alt=""><figcaption><p>Captura de pantalla de un recordatorio del turno</p></figcaption></figure>
+
 **Reglas de Negocio & Diccionario de Datos:**
-
-
 
 **Reglas de Negocio:**
 
-*
+* **Inferencias (Inferences):** \
+  Para ser atendido por un odontologo se necesita un turno previo.\
+  Es necesario presentarse en el establecimiento un tiempo antes previo a ser atendido. \
+  Es una buena practica asistir con buen higiene bucal al turno con el dentista.
+* **Hechos (Facts):** \
+  Previo al turno se debe dar aviso si la consulta sera por obra social o particular.\
+  Todas las tareas administrativas, compo por ejemplo dar los turnos, se hacen a traves del personal administrativo.&#x20;
+* **Restricciones (Constraints)**: \
+  La consulta se realiza de manera presencial\
+  Se necesita un turno previo para ser atendido, a menos que sea una emergencia.&#x20;
+* **Calculos (Computations):** Cada tipo de practica poseen diferentes costos.&#x20;
+* **Acciones disparadoras (action enablers):** Al final la consulta, el profesional evaluara si es necesario realizar una o varias positivas posteriores a la misma.
 
 **Diccionario de Datos:**
 
+e: turnoDentista = fecha(e) + direccion + nombreOftalmologo + consulta(d) + precioConsulta
 
+fecha(e) = fecha + hora\
+consulta(d) = \[particular | obra social]
 
-**Tipo de Evento:**&#x20;
+s: facturaPrestacion = 1{tipoDePractica}n + precioConsulta &#x20;
+
+**Tipo de Evento:** Evento externo
