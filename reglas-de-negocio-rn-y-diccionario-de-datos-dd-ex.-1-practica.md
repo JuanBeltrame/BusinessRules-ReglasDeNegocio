@@ -5,7 +5,7 @@ cover: >-
 coverY: 0
 ---
 
-# Regla de Negocio (RN) y Diccionario de Datos (DD) - Ex. 1 - Practica
+# Reglas de Negocio (RN) y Diccionario de Datos (DD) - Ex. 1 - Practica
 
 #### <mark style="color:orange;">Ejercicio 1 - Exercise 1</mark>
 
@@ -35,10 +35,11 @@ a) La primera actividad que se debe realizar para poder viajar, es seleccionar l
 
 **Reglas de Negocio & Diccionario de Datos:**&#x20;
 
-**Reglas de Negocio:**\
-**. Hech﻿os:** El colectivo sale desde la terminal de omnibus \
-**. Restricciones:** Ser mayor de 18 años para viajar solo, presentarse con el dni al momento de subir al bus. \
-. **Inferencias:** Brindar el numero de dni a la hora de sacar el boleto
+**Reglas de Negocio:**
+
+* **Hech﻿os:** El colectivo sale desde la terminal de omnibus&#x20;
+* **Restricciones:** Ser mayor de 18 años para viajar solo, presentarse con el dni al momento de subir al bus.&#x20;
+* **Inferencias:** Brindar el numero de dni a la hora de sacar el boleto
 
 **Diccionario de Datos:**\
 e: consultaViaje = empresa + fechaViaje(e)\
