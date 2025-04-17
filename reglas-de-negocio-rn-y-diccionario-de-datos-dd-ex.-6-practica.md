@@ -28,7 +28,7 @@ What I love most about Rosario is the number of parties there are. Every week, i
 
 **Reglas de Negocio & Diccionario de Datos:**
 
-
+A) La actividad que va a realizar Micaela es "Buscar a que fiesta/evento puede asistir el fin de semana"&#x20;
 
 **Reglas de Negocio:**
 
@@ -36,6 +36,10 @@ What I love most about Rosario is the number of parties there are. Every week, i
 
 **Diccionario de Datos:**
 
+e: consultarEvento = fecha(e) + precio + (artistaInvitado(d))\
+fecha(e) = dia + hora\
+artistaInvidtado(d) = \[dj | musicoSolista | banda]\
+\
+s: datosEvento =&#x20;
 
-
-**Tipo de Evento:**&#x20;
+**Tipo de Evento:** Evento externo
