@@ -16,8 +16,8 @@ Alguna que otra vez, Francisco saca una parte de los fondos de una cuenta bancar
 siguiente: “realizo esta actividad en un cajero automático para contar con una parte de mi capital líquido,&#x20;para pagar diferentes bienes y servicios que requieran un método en efectivo”.\
 \
 Además nos comentó que: se puede retirar dinero en más de una operación en un mismo día para la\
-misma tarjeta de débito, sin embargo nos alerta sobre que existe un tope de 250000 pesos por día para la&#x20;misma tarjeta. Algo para destacar es que se puede elegir si el retiro viene en billetes de menor\
-denominación (100 a 500), o en los de mayor denominación (1000/2000).\
+misma tarjeta de débito, sin embargo nos alerta sobre que existe un tope de $250.000 pesos por día para la&#x20;misma tarjeta. Algo para destacar es que se puede elegir si el retiro viene en billetes de menor\
+denominación ($100 a $500), o en los de mayor denominación ($1.000/$2.000).\
 \
 a) Enunciar la actividad que realiza Francisco en el cajero automático. Escribir los flujos de entrada y\
 de salida para la misma.\
@@ -31,9 +31,9 @@ From time to time, Francisco withdraws part of the funds from a bank account in 
 
 > “I carry out this activity at a cash machine in order to have some of my liquid capital on hand, to pay for different goods and services that require cash.”
 
-He also mentioned that it’s possible to withdraw money in more than one transaction on the same day using the same debit card. However, he warns us that there is a daily withdrawal limit of 250,000 pesos per card.
+He also mentioned that it’s possible to withdraw money in more than one transaction on the same day using the same debit card. However, he warns us that there is a daily withdrawal limit of $250,000 pesos per card.
 
-An interesting feature is that one can choose whether the money comes in lower denomination notes (100 to 500 pesos), or higher denominations (1,000/2,000 pesos).
+An interesting feature is that one can choose whether the money comes in lower denomination notes ($100 to $500 pesos), or higher denominations ($1,000/$2,000 pesos).
 
 **a)** State the activity Francisco carries out at the cash machine. Write the input and output flows for this activity.
 
@@ -45,14 +45,28 @@ An interesting feature is that one can choose whether the money comes in lower d
 
 **Reglas de Negocio & Diccionario de Datos:**
 
-
+a) La actividad que realiza Francisco es la de extraer dinero
 
 **Reglas de Negocio:**
 
-*
+* **Inferencias (Inferences):** \
+  El monto de $250.000 se reinicia al comenzar un nuevo dia.&#x20;
+* **Hechos (Facts):** \
+  El cajero puedo entregar billetes de denominacion baja, o billetes de denominacion alta. \
+  Se pueden realizar varias operaciones de retiro de dinero en un mismo día.&#x20;
+* **Restricciones (Constraints)**: \
+  Se puede retirar hasta $250.000 por dia.&#x20;
+* **Calculos (Computations):** \
+  El sistema tiene registro de cuanto dinero se lleva extraido hasta el momento en un mismo dia.&#x20;
+* **Acciones disparadoras (action enablers):** \
+  Luego que el cajero entrega el dinero en efectivo genera e imprime un ticket con los datos de la operacion.
 
 **Diccionario de Datos:**
 
+e:extraerDinero = tipoDeRetiro(d) + 1{cantidadDeOperaciones}n + 1{montoRetiro}250.000\
+tipoDeRetiro(d) =  \[denominacionBaja | denominacinAlta] \
+\
+s: recibirDinero = 1{montoRetiro}250.000 + ticketExtraccion(e)\
+ticketExtraccion(e) = 1{montoRetiro}250.000 + fecha(e) + nombreDelBanco&#x20;
 
-
-**Tipo de Evento:**&#x20;
+**Tipo de Evento:** Evento Externo
