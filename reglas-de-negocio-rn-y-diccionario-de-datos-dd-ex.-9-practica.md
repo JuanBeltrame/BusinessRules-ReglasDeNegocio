@@ -39,12 +39,26 @@ Membership fees must be paid between the 1st and the 10th of each month; if this
 
 **Reglas de Negocio:**
 
-*
+* **Inferencias (Inferences):** \
+  La recepcionista siempre verifica que el cliente se  &#x20;encuentre habilitado\
+  Cuando se paga fuera de termino se considera que la cuota esta adeudada.&#x20;
+* **Hechos (Facts):** \
+  Un cliente se encuentra habilitado cuando no adeuda cuotas y no se encuentra  &#x20;bloqueado.&#x20;
+* **Restricciones (Constraints)**: \
+  Para ingresar al gimnasio es necesario presentar el DNI
+* **Calculos (Computations):** \
+  Las cuotas deberán abonarse del 1 al 10 de cada mes\
+
 
 **Diccionario de Datos:**
 
+e: ingresoGimnasio = numDocumento | permisoIngreso(d)\
+\
+permisoIngreso(d) = \[ si | no ]\
+\
+s: permisoEntrada = deuda + bloqueo(d) + tipoDeBloqueo(d)\
+\
+bloqueo = \[ si | no ]   \
+tipoDeBloque(d) = \[ deudaCuota | malComportamiento ]&#x20;
 
-
-**Tipo de Evento:**&#x20;
-
-* Evento Temporal: La cuotas deberan abonarse del 1 al 10 de cada mes.&#x20;
+**Tipo de Evento:**  Evento Externo&#x20;
