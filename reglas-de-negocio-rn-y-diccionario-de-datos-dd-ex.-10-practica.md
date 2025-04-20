@@ -23,15 +23,14 @@ estudiantes habilitó una página web y el tiene la url para acceder - comenta T
 –La ecológica es mucho más cara me parece, y cada apunte tiene como 90 hojas!--dice Elisa\
 –¿En serio? ¿Cómo vamos a hacer para leer todo eso?--dice Tomy\
 –Pienso que la única manera sería... leyendo–dice en chiste Julián\
-–Que gracioso está Julio –dice Elisa\
+–Que gracioso está Julian –dice Elisa\
 –Hay que leer los apuntes para poder hacer los crucigramas de ciclo de vida y eso —dice serio Julián\
 –Dicen por ahí que el profe de ADESI va a sacar los crucigramas de JULIO—sigue haciendo chistes\
 Julián\
 –Ahora hablo en serio, todos quieren copias de los apuntes, ¿no?, me ayudan diciéndome el nombre\
 de cada uno de los apuntes- nuevamente Julián\
 –Poné la dirección de tu casa y que te lo envíen ahí o les parece que los retiremos por la fotocopiadora\
-¿Qué opinan? –pregunta Tomy
-
+¿Qué opinan? –pregunta Tomy\
 –Acordate de descargar las constancia del pedido, que te dan cuando terminas de realizar el encargo-\
 indica Elisa - Porque ahí te informan la fecha estimada en que estarán listas las fotocopias.
 
@@ -51,10 +50,17 @@ English:
 
 **Reglas de Negocio:**
 
-*
+* \
+  \
+
 
 **Diccionario de Datos:**
 
+e: encargoDeFotocopias = nombre + tipoDePapel(d) + 1{cantidadDeCopias}3 + 1{nombreApuntes}n + tipoDeRetiro(d) \
+\
+tipoDePapel(d) = \[ecologico + comun]\
+tipoDeRetiro(d) = \[domicilio + fotocpiadora]\
+\
+s: constanciaDePedido = fechaRetiro + precio&#x20;
 
-
-**Tipo de Evento:**&#x20;
+**Tipo de Evento:** Evento Externo
