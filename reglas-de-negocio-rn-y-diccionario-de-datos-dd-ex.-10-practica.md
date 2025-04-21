@@ -46,20 +46,23 @@ English:
 
 **Reglas de Negocio & Diccionario de Datos:**
 
-
-
 **Reglas de Negocio:**
 
-* \
-  \
-
+* **Inferencias (Inferences):** \
+  La gestion de los apuntes se realiza a traves de un sitio web.
+* **Hechos (Facts):** \
+  Se ofrecen 2 tipos de papel, comun y ecologico.\
+  Los apuntes se pueden retirar por fotocopiadora o bien, se pueden enviar a domicilio.
+* **Acciones disparadoras (action enablers):** \
+  Luego de realizar el pedido, se genera una constancia de pedido.
 
 **Diccionario de Datos:**
 
-e: encargoDeFotocopias = nombre + tipoDePapel(d) + 1{cantidadDeCopias}3 + 1{nombreApuntes}n + tipoDeRetiro(d) \
+e: encargoDeFotocopias = nombre + tipoDePapel(d) + 1{cantidadDeCopias}3 + 1{nombreApuntes}n + tipoDeRetiro(d) + (direccion(e))\
 \
 tipoDePapel(d) = \[ecologico + comun]\
 tipoDeRetiro(d) = \[domicilio + fotocpiadora]\
+direccion(e) = calle + numero + ciudad\
 \
 s: constanciaDePedido = fechaRetiro + precio&#x20;
 
